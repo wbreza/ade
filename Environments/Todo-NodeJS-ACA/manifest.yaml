@@ -5,3 +5,14 @@ summary: Todo NodeJS Container Apps sample
 description: Deploys an empty sandbox environment
 runner: ARM
 templatePath: azuredeploy.json
+parameters:
+  - id: 'environmentName'
+    name: 'environmentName'
+    type: 'string'
+    defaultValue: 'todo-[resourceGroup.name]'
+  - id: 'location'
+    name: 'location'
+    type: 'string'
+    defaultValue: '[resourceGroup().location]'
+  
+    
