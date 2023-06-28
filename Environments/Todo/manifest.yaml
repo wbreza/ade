@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=https://github.com/Azure/deployment-environments/releases/download/2022-11-11-preview/manifest.schema.json
+name: Todo
+version: 1.0.0
+summary: Todo app
+description: Deploys todo app infra
+runner: ARM
+templatePath: azuredeploy.json
