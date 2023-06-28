@@ -14,5 +14,3 @@ parameters:
     name: 'location'
     type: 'string'
     defaultValue: '[resourceGroup().location]'
-  
-    
