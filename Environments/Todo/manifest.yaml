@@ -12,3 +12,9 @@ parameters:
     required: true
     type: string
     description: Name of the environment
+  - id: repoUrl
+    name: repoUrl
+    required: true
+    type: string
+    description: Path the the application source code
+    default: https://github.com/azure-samples/todo-nodejs-mongo
