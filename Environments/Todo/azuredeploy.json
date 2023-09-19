@@ -9,6 +9,13 @@
     }
   },
   "parameters": {
+    "repoUrl": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "URL of the GitHub repository containing the application code"
+      }
+    },
     "environmentName": {
       "type": "string",
       "metadata": {
