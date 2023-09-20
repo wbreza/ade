@@ -8,5 +8,22 @@
       "templateHash": "17750672647523699609"
     }
   },
+  "parameters": {
+    "repoUrl": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "URL of the GitHub repository containing the application code"
+      }
+    },
+    "environmentName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the the environment which is used to generate a short unique hash used in all resources."
+      },
+      "maxLength": 64,
+      "minLength": 1
+    }
+  },
   "resources": []
 }

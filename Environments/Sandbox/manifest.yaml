@@ -5,3 +5,19 @@ summary: Empty sandbox environment
 description: Deploys an empty sandbox environment
 runner: ARM
 templatePath: azuredeploy.json
+
+parameters:
+  - id: environmentName
+    name: environmentName
+    required: true
+    type: string
+    description: Name of the environment
+  - id: repoUrl
+    name: repoUrl
+    type: string
+    description: Path the the application source code
+    allowed:
+      - "https://github.com/azure-samples/todo-csharp-cosmos-sql"
+      - "https://github.com/azure-samples/todo-java-mongo"
+      - "https://github.com/azure-samples/todo-nodejs-mongo"
+      - "https://github.com/azure-samples/todo-python-mongo"
