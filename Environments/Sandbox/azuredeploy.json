@@ -25,5 +25,23 @@
       "minLength": 1
     }
   },
-  "resources": []
+  "resources": [],
+  "outputs": {
+    "AZURE_RESOURCE_GROUP": {
+      "type": "string",
+      "value": "[resourceGroup().name]"
+    },
+    "CUSTOMER_VAR_01": {
+      "type": "string",
+      "value": "A"
+    },
+    "CUSTOMER_VAR_02": {
+      "type": "string",
+      "value": "B"
+    },
+    "CUSTOMER_VAR_03": {
+      "type": "string",
+      "value": "C"
+    }
+  }
 }
