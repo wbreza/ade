@@ -20,4 +20,5 @@ parameters:
       - "https://github.com/azure-samples/todo-csharp-cosmos-sql"
       - "https://github.com/azure-samples/todo-java-mongo"
       - "https://github.com/azure-samples/todo-nodejs-mongo"
+      - "https://github.com/azure-samples/todo-nodejs-mongo-aca"
       - "https://github.com/azure-samples/todo-python-mongo"
