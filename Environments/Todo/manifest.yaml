@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://github.com/Azure/deployment-environments/releases/download/2022-11-11-preview/manifest.schema.json
 name: Todo
 version: 1.0.0
-summary: Todo app
-description: Deploys todo app infra
+summary: Todo app container app
+description: Deploys todo app infra using Azure container apps
 runner: ARM
 templatePath: azuredeploy.json
 
@@ -16,9 +16,5 @@ parameters:
     name: repoUrl
     type: string
     description: Path the the application source code
-    allowed:
-      - "https://github.com/azure-samples/todo-csharp-cosmos-sql"
-      - "https://github.com/azure-samples/todo-java-mongo"
-      - "https://github.com/azure-samples/todo-nodejs-mongo"
+    default:
       - "https://github.com/azure-samples/todo-nodejs-mongo-aca"
-      - "https://github.com/azure-samples/todo-python-mongo"

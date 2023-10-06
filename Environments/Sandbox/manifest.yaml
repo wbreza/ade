@@ -16,9 +16,4 @@ parameters:
     name: repoUrl
     type: string
     description: Path the the application source code
-    allowed:
-      - "https://github.com/azure-samples/todo-csharp-cosmos-sql"
-      - "https://github.com/azure-samples/todo-java-mongo"
-      - "https://github.com/azure-samples/todo-nodejs-mongo"
-      - "https://github.com/azure-samples/todo-nodejs-mongo-aca"
-      - "https://github.com/azure-samples/todo-python-mongo"
+    default: "https://github.com/Azure-Samples/azd-starter-bicep"
