@@ -16,5 +16,4 @@ parameters:
     name: repoUrl
     type: string
     description: Path the the application source code
-    default:
-      - "https://github.com/azure-samples/todo-nodejs-mongo-aca"
+    default: "https://github.com/azure-samples/todo-nodejs-mongo-aca"
